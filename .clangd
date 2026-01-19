@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - -I.
+    - -I/opt/homebrew/include
+    - -I/opt/homebrew/opt/flex/include
+    - -I/opt/homebrew/opt/llvm/include/c++/v1

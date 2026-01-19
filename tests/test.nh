@@ -1,0 +1,141 @@
+@title ( Design and Implementation of a Structured Document Language )
+
+@heading ( Abstract ) {
+    This document presents the design and implementation of a structured
+    document description language inspired by LaTeX but simplified for
+    compiler construction and AST-based processing.
+
+    The language focuses on hierarchical organization, deterministic parsing,
+    and easy transformation into formats such as PDF, HTML, and Markdown.
+}
+
+@heading ( Introduction ) {
+    Modern document preparation systems are powerful but complex.
+    This project explores a minimal alternative that preserves structure
+    while remaining easy to parse and extend.
+
+    @subheading ( Motivation ) {
+        Writing parsers for real-world languages is difficult due to ambiguity,
+        complex syntax, and historical baggage.
+
+        @bullet { Simpler grammar enables faster parsing }
+        @bullet { Hierarchical structure maps cleanly to ASTs }
+        @bullet { Deterministic parsing reduces bugs }
+
+        The motivation behind this language is to focus on
+        @italic { structure over presentation }
+        and allow clean semantic processing.
+
+        @bold { This language is designed first as a compiler project. }
+    }
+
+    @subheading ( Goals ) {
+        The primary goals of this project are listed below.
+
+        @bullet { Design an unambiguous grammar }
+        @bullet { Build a clean hierarchical AST }
+        @bullet { Enable easy backend transformations }
+
+        These goals guide every design decision made in the language.
+    }
+}
+
+@heading ( Language Design ) {
+    The language is based on explicit structural markers and block-based
+    scoping rules.
+
+    @subheading ( Core Constructs ) {
+        The core constructs of the language include headings, subheadings,
+        paragraphs, and inline formatting blocks.
+
+        @bullet { Headings define major sections }
+        @bullet { Subheadings define subsections }
+        @bullet { Paragraphs contain plain text }
+
+        Inline formatting such as
+        @italic { italics }
+        and
+        @bold { bold text }
+        are expressed using explicit commands.
+    }
+
+    @subheading ( Grammar Simplicity ) {
+        The grammar is intentionally restricted to avoid ambiguity.
+
+        @bullet { No implicit nesting }
+        @bullet { Explicit block delimiters }
+        @bullet { Predictable token stream }
+
+        This makes the language ideal for LR parsing using tools such as
+        Bison and Flex.
+    }
+}
+
+@heading ( Implementation ) {
+    The implementation follows a traditional compiler pipeline.
+
+    @subheading ( Lexical Analysis ) {
+        The lexer converts the input document into a stream of tokens.
+
+        @bullet { Keywords such as @heading and @subheading }
+        @bullet { Structural symbols like braces and parentheses }
+        @bullet { Text blocks captured as TOKEN_TEXT }
+
+        Lexical simplicity ensures robustness and clarity.
+    }
+
+    @subheading ( Parsing and AST Construction ) {
+        The parser consumes tokens and constructs an abstract syntax tree.
+
+        @bullet { Each structural element becomes a Node }
+        @bullet { Children represent hierarchical containment }
+        @bullet { Order is preserved naturally }
+
+        The AST mirrors the logical structure of the document rather than
+        its surface syntax.
+    }
+
+    @subheading ( Semantic Processing ) {
+        Once constructed, the AST enables semantic analysis and transformation.
+
+        @bullet { Validation of document structure }
+        @bullet { Transformation to output formats }
+        @bullet { Static analysis of document consistency }
+
+        This design allows future extensions without modifying the grammar.
+    }
+}
+
+@heading ( Applications ) {
+    The language has several practical applications.
+
+    @subheading ( Academic Writing ) {
+        Research papers benefit from strong structural guarantees.
+
+        @bullet { Clear section hierarchy }
+        @bullet { Automated formatting }
+        @bullet { Consistent output }
+
+        This makes the language suitable for academic and technical writing.
+    }
+
+    @subheading ( Documentation Systems ) {
+        Software documentation often requires structured content.
+
+        @bullet { API documentation }
+        @bullet { Design specifications }
+        @bullet { Developer guides }
+
+        The AST-based approach enables automated documentation generation.
+    }
+}
+
+@heading ( Conclusion ) {
+    This project demonstrates that a well-designed grammar and AST can
+    greatly simplify document processing.
+
+    @bold { The focus on structure enables powerful transformations. }
+
+    Future work includes adding references, figures, and mathematical
+    notation while preserving grammar simplicity.
+}

@@ -1,0 +1,2545 @@
+%PDF-1.3
+%·¾­ª
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [ 7 0 R 10 0 R 13 0 R ]
+/Count 3
+>>
+endobj
+3 0 obj
+<<
+/Producer (Haru Free PDF Library 2.4.5)
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+7 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 8 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 5 0 R
+/F2 4 0 R
+/F3 6 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+/F1 24 Tf
+/F1 24 Tf
+/F1 24 Tf
+BT
+52.26199 791.89001 Td
+(Design and Implementation of a Structured) Tj
+ET
+/F1 24 Tf
+/F1 24 Tf
+BT
+178.958 763.09002 Td
+(Document Language) Tj
+ET
+/F1 18 Tf
+/F1 18 Tf
+/F1 18 Tf
+BT
+50 694.29003 Td
+(Abstract) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 647.69006 Td
+(This) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+76.00399 647.69006 Td
+(document) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+132.03199 647.69006 Td
+(presents) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+181.388 647.69006 Td
+(the) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+201.404 647.69006 Td
+(design) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+240.09201 647.69006 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+263.444 647.69006 Td
+(implementation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+348.14001 647.69006 Td
+(of) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+361.484 647.69006 Td
+(a) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+371.492 647.69006 Td
+(structured) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+428.17999 647.69006 Td
+(document) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 633.29003 Td
+(description) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+111.356 633.29003 Td
+(language) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+164.05999 633.29003 Td
+(inspired) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+209.40798 633.29003 Td
+(by) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+225.41598 633.29003 Td
+(LaTeX) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+264.10397 633.29003 Td
+(but) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+284.11996 633.29003 Td
+(simplified) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+337.45996 633.29003 Td
+(for) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+354.79995 633.29003 Td
+(compiler) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+403.47195 633.29003 Td
+(construction) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+471.49993 633.29003 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 618.89001 Td
+(AST-based) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+113.36 618.89001 Td
+(processing.) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+178.052 618.89001 Td
+(The) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+202.06399 618.89001 Td
+(language) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+254.76799 618.89001 Td
+(focuses) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+299.45599 618.89001 Td
+(on) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+316.13598 618.89001 Td
+(hierarchical) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+380.81597 618.89001 Td
+(organization,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+452.85198 618.89001 Td
+(deterministic) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 604.48999 Td
+(parsing,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+96.02 604.48999 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+119.372 604.48999 Td
+(easy) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+148.052 604.48999 Td
+(transformation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+228.08 604.48999 Td
+(into) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+250.76 604.48999 Td
+(formats) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+294.104 604.48999 Td
+(such) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+322.78399 604.48999 Td
+(as) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+338.79199 604.48999 Td
+(PDF,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+369.46398 604.48999 Td
+(HTML,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+408.79998 604.48999 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+432.15197 604.48999 Td
+(Markdown.) Tj
+ET
+/F1 18 Tf
+/F1 18 Tf
+/F1 18 Tf
+BT
+50 570.08996 Td
+(Introduction) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 523.48999 Td
+(Modern) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+94.01599 523.48999 Td
+(document) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+150.044 523.48999 Td
+(preparation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+214.076 523.48999 Td
+(systems) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+261.41601 523.48999 Td
+(are) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+282.09201 523.48999 Td
+(powerful) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+330.776 523.48999 Td
+(but) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+350.79199 523.48999 Td
+(complex.) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+402.13998 523.48999 Td
+(This) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+428.14398 523.48999 Td
+(project) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+467.49197 523.48999 Td
+(explores) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+516.17596 523.48999 Td
+(a) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 509.08999 Td
+(minimal) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+94.664 509.08999 Td
+(alternative) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+153.356 509.08999 Td
+(that) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+176.708 509.08999 Td
+(preserves) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+232.72399 509.08999 Td
+(structure) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+282.73999 509.08999 Td
+(while) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+313.41198 509.08999 Td
+(remaining) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+369.42797 509.08999 Td
+(easy) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+398.10797 509.08999 Td
+(to) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+411.45196 509.08999 Td
+(parse) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+444.79995 509.08999 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+468.15194 509.08999 Td
+(extend.) Tj
+ET
+/F1 14 Tf
+/F1 14 Tf
+/F1 14 Tf
+BT
+50 479.69 Td
+(Motivation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 442.89001 Td
+(Writing) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+90.66799 442.89001 Td
+(parsers) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+134.01199 442.89001 Td
+(for) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+151.35198 442.89001 Td
+(real-world) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+207.35598 442.89001 Td
+(languages) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+266.05999 442.89001 Td
+(is) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+278.05999 442.89001 Td
+(difficult) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+318.73999 442.89001 Td
+(due) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+342.09197 442.89001 Td
+(to) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+355.43597 442.89001 Td
+(ambiguity,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+413.45596 442.89001 Td
+(complex) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+461.46795 442.89001 Td
+(syntax,) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+502.81994 442.89001 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 428.49002 Td
+(historical) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+100.67599 428.49002 Td
+(baggage.) Tj
+ET
+/F2 12 Tf
+BT
+50 406.09002 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 406.09002 Td
+(Simpler grammar enables faster parsing) Tj
+ET
+/F2 12 Tf
+BT
+50 383.69003 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 383.69003 Td
+(Hierarchical structure maps cleanly to ASTs) Tj
+ET
+/F2 12 Tf
+BT
+50 361.29003 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 361.29003 Td
+(Deterministic parsing reduces bugs) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 336.89004 Td
+(The) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+74.012 336.89004 Td
+(motivation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+132.03199 336.89004 Td
+(behind) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+171.39199 336.89004 Td
+(this) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+193.39999 336.89004 Td
+(language) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+246.10398 336.89004 Td
+(is) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+258.104 336.89004 Td
+(to) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+271.44799 336.89004 Td
+(focus) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+303.46398 336.89004 Td
+(on) Tj
+ET
+/F3 12 Tf
+/F3 12 Tf
+BT
+320.14398 336.89004 Td
+(structure) Tj
+ET
+/F3 12 Tf
+/F3 12 Tf
+BT
+370.15997 336.89004 Td
+(over) Tj
+ET
+/F3 12 Tf
+/F3 12 Tf
+BT
+396.83596 336.89004 Td
+(presentation) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+466.20797 336.89004 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+489.55996 336.89004 Td
+(allow) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 322.49005 Td
+(clean) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+82.01599 322.49005 Td
+(semantic) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+133.36399 322.49005 Td
+(processing.) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+198.05599 322.49005 Td
+(This) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+226.06399 322.49005 Td
+(language) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+282.07998 322.49005 Td
+(is) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+295.42398 322.49005 Td
+(designed) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+351.43997 322.49005 Td
+(first) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+377.44396 322.49005 Td
+(as) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+394.12396 322.49005 Td
+(a) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+404.13195 322.49005 Td
+(compiler) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+457.48394 322.49005 Td
+(project.) Tj
+ET
+/F1 14 Tf
+/F1 14 Tf
+/F1 14 Tf
+BT
+50 293.09005 Td
+(Goals) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 256.29006 Td
+(The) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+74.012 256.29006 Td
+(primary) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+117.344 256.29006 Td
+(goals) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+149.36 256.29006 Td
+(of) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+162.70399 256.29006 Td
+(this) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+184.71199 256.29006 Td
+(project) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+224.05999 256.29006 Td
+(are) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+244.73599 256.29006 Td
+(listed) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+276.07998 256.29006 Td
+(below.) Tj
+ET
+/F2 12 Tf
+BT
+50 233.89007 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 233.89007 Td
+(Design an unambiguous grammar) Tj
+ET
+/F2 12 Tf
+BT
+50 211.49008 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 211.49008 Td
+(Build a clean hierarchical AST) Tj
+ET
+/F2 12 Tf
+BT
+50 189.09008 Td
+(-) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+/F2 12 Tf
+BT
+65 189.09008 Td
+(Enable easy backend transformations) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 164.69009 Td
+(These) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+86.68399 164.69009 Td
+(goals) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+118.69999 164.69009 Td
+(guide) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+151.388 164.69009 Td
+(every) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+184.06399 164.69009 Td
+(design) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+222.75199 164.69009 Td
+(decision) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+270.104 164.69009 Td
+(made) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+303.45199 164.69009 Td
+(in) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+316.12399 164.69009 Td
+(the) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+336.13998 164.69009 Td
+(language.) Tj
+ET
+/F1 18 Tf
+/F1 18 Tf
+/F1 18 Tf
+BT
+50 130.2901 Td
+(Language Design) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+50 83.6901 Td
+(The) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+74.012 83.6901 Td
+(language) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+126.716 83.6901 Td
+(is) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+138.716 83.6901 Td
+(based) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+174.74 83.6901 Td
+(on) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+191.42001 83.6901 Td
+(explicit) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+231.428 83.6901 Td
+(structural) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+284.108 83.6901 Td
+(markers) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+330.776 83.6901 Td
+(and) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+354.12799 83.6901 Td
+(block-based) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+422.156 83.6901 Td
+(scoping) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+466.84399 83.6901 Td
+(rules.) Tj
+ET
+/F1 14 Tf
+/F1 14 Tf
+/F1 14 Tf
+BT
+50 54.2901 Td
+(Core Constructs) Tj
+ET
+
+endstream
+endobj
+9 0 obj
+9660
+endobj
+10 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 11 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+/F2 6 0 R
+/F3 5 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 12 0 R
+>>
+stream
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 781.89001 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 781.89001 Td
+(core) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+100.688 781.89001 Td
+(constructs) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+158.708 781.89001 Td
+(of) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+172.052 781.89001 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+192.068 781.89001 Td
+(language) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+244.772 781.89001 Td
+(include) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+286.12399 781.89001 Td
+(headings,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+341.492 781.89001 Td
+(subheadings,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+416.20401 781.89001 Td
+(paragraphs,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+483.57202 781.89001 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+506.92401 781.89001 Td
+(inline) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 767.48999 Td
+(formatting) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+106.688 767.48999 Td
+(blocks.) Tj
+ET
+/F1 12 Tf
+BT
+50 745.08996 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 745.08996 Td
+(Headings define major sections) Tj
+ET
+/F1 12 Tf
+BT
+50 722.68994 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 722.68994 Td
+(Subheadings define subsections) Tj
+ET
+/F1 12 Tf
+BT
+50 700.28991 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 700.28991 Td
+(Paragraphs contain plain text) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 675.88989 Td
+(Inline) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+82.01599 675.88989 Td
+(formatting) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+138.70399 675.88989 Td
+(such) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+167.384 675.88989 Td
+(as) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+183.39199 675.88989 Td
+(italics) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+216.72799 675.88989 Td
+(and) Tj
+ET
+/F3 12 Tf
+/F3 12 Tf
+BT
+240.08 675.88989 Td
+(bold) Tj
+ET
+/F3 12 Tf
+/F3 12 Tf
+BT
+268.74798 675.88989 Td
+(text) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+293.41998 675.88989 Td
+(are) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+314.09597 675.88989 Td
+(expressed) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+372.78796 675.88989 Td
+(using) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+404.80395 675.88989 Td
+(explicit) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+444.81195 675.88989 Td
+(commands.) Tj
+ET
+/F3 14 Tf
+/F3 14 Tf
+/F3 14 Tf
+BT
+50 646.48986 Td
+(Grammar Simplicity) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 609.68988 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 609.68988 Td
+(grammar) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+125.34799 609.68988 Td
+(is) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+137.34799 609.68988 Td
+(intentionally) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+204.04399 609.68988 Td
+(restricted) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+256.72399 609.68988 Td
+(to) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+270.06799 609.68988 Td
+(avoid) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+302.08398 609.68988 Td
+(ambiguity.) Tj
+ET
+/F1 12 Tf
+BT
+50 587.28985 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 587.28985 Td
+(No implicit nesting) Tj
+ET
+/F1 12 Tf
+BT
+50 564.88983 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 564.88983 Td
+(Explicit block delimiters) Tj
+ET
+/F1 12 Tf
+BT
+50 542.4898 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 542.4898 Td
+(Predictable token stream) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 518.08978 Td
+(This) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+76.00399 518.08978 Td
+(makes) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+114.67999 518.08978 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+134.69599 518.08978 Td
+(language) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+187.39999 518.08978 Td
+(ideal) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+216.07998 518.08978 Td
+(for) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+233.41998 518.08978 Td
+(LR) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+252.09197 518.08978 Td
+(parsing) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+294.77597 518.08978 Td
+(using) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+326.79196 518.08978 Td
+(tools) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+355.47195 518.08978 Td
+(such) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+384.15194 518.08978 Td
+(as) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+400.15994 518.08978 Td
+(Bison) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+433.50793 518.08978 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+456.85992 518.08978 Td
+(Flex.) Tj
+ET
+/F3 18 Tf
+/F3 18 Tf
+/F3 18 Tf
+BT
+50 483.68978 Td
+(Implementation) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 437.08978 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 437.08978 Td
+(implementation) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+158.708 437.08978 Td
+(follows) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+198.716 437.08978 Td
+(a) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+208.72399 437.08978 Td
+(traditional) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+264.07998 437.08978 Td
+(compiler) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+312.75198 437.08978 Td
+(pipeline.) Tj
+ET
+/F3 14 Tf
+/F3 14 Tf
+/F3 14 Tf
+BT
+50 407.68978 Td
+(Lexical Analysis) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 370.8898 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 370.8898 Td
+(lexer) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+103.352 370.8898 Td
+(converts) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+152.03601 370.8898 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+172.05201 370.8898 Td
+(input) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+201.40402 370.8898 Td
+(document) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+257.432 370.8898 Td
+(into) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+280.11199 370.8898 Td
+(a) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+290.11999 370.8898 Td
+(stream) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+330.12799 370.8898 Td
+(of) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+343.47198 370.8898 Td
+(tokens.) Tj
+ET
+/F1 12 Tf
+BT
+50 348.4898 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 348.4898 Td
+(Keywords such as @heading and @subheading) Tj
+ET
+/F1 12 Tf
+BT
+50 326.08981 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 326.08981 Td
+(Structural symbols like braces and parentheses) Tj
+ET
+/F1 12 Tf
+BT
+50 303.68981 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 303.68981 Td
+(Text blocks captured as TOKEN_TEXT) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 279.28982 Td
+(Lexical) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+90.68 279.28982 Td
+(simplicity) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+142.67599 279.28982 Td
+(ensures) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+188.69599 279.28982 Td
+(robustness) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+250.72399 279.28982 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+274.07598 279.28982 Td
+(clarity.) Tj
+ET
+/F3 14 Tf
+/F3 14 Tf
+/F3 14 Tf
+BT
+50 249.88983 Td
+(Parsing and AST Construction) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 213.08982 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 213.08982 Td
+(parser) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+111.356 213.08982 Td
+(consumes) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+169.376 213.08982 Td
+(tokens) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+208.06401 213.08982 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+231.41601 213.08982 Td
+(constructs) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+289.436 213.08982 Td
+(an) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+306.11599 213.08982 Td
+(abstract) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+352.13598 213.08982 Td
+(syntax) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+390.15197 213.08982 Td
+(tree.) Tj
+ET
+/F1 12 Tf
+BT
+50 190.68983 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 190.68983 Td
+(Each structural element becomes a Node) Tj
+ET
+/F1 12 Tf
+BT
+50 168.28984 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 168.28984 Td
+(Children represent hierarchical containment) Tj
+ET
+/F1 12 Tf
+BT
+50 145.88984 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 145.88984 Td
+(Order is preserved naturally) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 121.48985 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 121.48985 Td
+(AST) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+100.688 121.48985 Td
+(mirrors) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+141.34399 121.48985 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+161.36 121.48985 Td
+(logical) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+198.70401 121.48985 Td
+(structure) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+248.72 121.48985 Td
+(of) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+262.06399 121.48985 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+282.07998 121.48985 Td
+(document) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+338.10797 121.48985 Td
+(rather) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+372.78796 121.48985 Td
+(than) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+399.47595 121.48985 Td
+(its) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+414.81195 121.48985 Td
+(surface) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+457.49594 121.48985 Td
+(syntax.) Tj
+ET
+/F3 14 Tf
+/F3 14 Tf
+/F3 14 Tf
+BT
+50 92.08985 Td
+(Semantic Processing) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 55.28985 Td
+(Once) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+82.01599 55.28985 Td
+(constructed,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+150.716 55.28985 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+170.732 55.28985 Td
+(AST) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+197.408 55.28985 Td
+(enables) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+242.768 55.28985 Td
+(semantic) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+294.11599 55.28985 Td
+(analysis) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+340.79598 55.28985 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+364.14797 55.28985 Td
+(transformation.) Tj
+ET
+
+endstream
+endobj
+12 0 obj
+8284
+endobj
+13 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595.276 841.89001 ]
+/Contents 14 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 4 0 R
+/F2 5 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 15 0 R
+>>
+stream
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 783.89001 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 783.89001 Td
+(Validation of document structure) Tj
+ET
+/F1 12 Tf
+BT
+50 761.48999 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 761.48999 Td
+(Transformation to output formats) Tj
+ET
+/F1 12 Tf
+BT
+50 739.08996 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 739.08996 Td
+(Static analysis of document consistency) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 714.68994 Td
+(This) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+76.00399 714.68994 Td
+(design) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+114.692 714.68994 Td
+(allows) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+151.36399 714.68994 Td
+(future) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+185.384 714.68994 Td
+(extensions) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+246.08 714.68994 Td
+(without) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+287.432 714.68994 Td
+(modifying) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+342.11599 714.68994 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+362.13198 714.68994 Td
+(grammar.) Tj
+ET
+/F2 18 Tf
+/F2 18 Tf
+/F2 18 Tf
+BT
+50 680.28991 Td
+(Applications) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 633.68994 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 633.68994 Td
+(language) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+126.716 633.68994 Td
+(has) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+149.39599 633.68994 Td
+(several) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+191.40798 633.68994 Td
+(practical) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+239.41998 633.68994 Td
+(applications.) Tj
+ET
+/F2 14 Tf
+/F2 14 Tf
+/F2 14 Tf
+BT
+50 604.28991 Td
+(Academic Writing) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 567.48992 Td
+(Research) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+104.68399 567.48992 Td
+(papers) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+144.70399 567.48992 Td
+(benefit) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+184.06399 567.48992 Td
+(from) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+211.39999 567.48992 Td
+(strong) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+248.08398 567.48992 Td
+(structural) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+300.76397 567.48992 Td
+(guarantees.) Tj
+ET
+/F1 12 Tf
+BT
+50 545.0899 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 545.0899 Td
+(Clear section hierarchy) Tj
+ET
+/F1 12 Tf
+BT
+50 522.68988 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 522.68988 Td
+(Automated formatting) Tj
+ET
+/F1 12 Tf
+BT
+50 500.28988 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 500.28988 Td
+(Consistent output) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 475.88989 Td
+(This) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+76.00399 475.88989 Td
+(makes) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+114.67999 475.88989 Td
+(the) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+134.69599 475.88989 Td
+(language) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+187.39999 475.88989 Td
+(suitable) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+232.08799 475.88989 Td
+(for) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+249.42799 475.88989 Td
+(academic) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+304.11199 475.88989 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+327.46398 475.88989 Td
+(technical) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+378.15197 475.88989 Td
+(writing.) Tj
+ET
+/F2 14 Tf
+/F2 14 Tf
+/F2 14 Tf
+BT
+50 446.48989 Td
+(Documentation Systems) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 409.68991 Td
+(Software) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+100.688 409.68991 Td
+(documentation) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+182.73199 409.68991 Td
+(often) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+212.75599 409.68991 Td
+(requires) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+259.436 409.68991 Td
+(structured) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+316.12399 409.68991 Td
+(content.) Tj
+ET
+/F1 12 Tf
+BT
+50 387.28991 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 387.28991 Td
+(API documentation) Tj
+ET
+/F1 12 Tf
+BT
+50 364.88992 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 364.88992 Td
+(Design specifications) Tj
+ET
+/F1 12 Tf
+BT
+50 342.48992 Td
+(-) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+/F1 12 Tf
+BT
+65 342.48992 Td
+(Developer guides) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 318.08993 Td
+(The) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+74.012 318.08993 Td
+(AST-based) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+137.372 318.08993 Td
+(approach) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+190.736 318.08993 Td
+(enables) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+236.096 318.08993 Td
+(automated) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+296.13201 318.08993 Td
+(documentation) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+378.17602 318.08993 Td
+(generation.) Tj
+ET
+/F2 18 Tf
+/F2 18 Tf
+/F2 18 Tf
+BT
+50 283.68994 Td
+(Conclusion) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 237.08993 Td
+(This) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+76.00399 237.08993 Td
+(project) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+115.35199 237.08993 Td
+(demonstrates) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+191.384 237.08993 Td
+(that) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+214.736 237.08993 Td
+(a) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+224.744 237.08993 Td
+(well-designed) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+301.436 237.08993 Td
+(grammar) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+352.772 237.08993 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+376.12399 237.08993 Td
+(AST) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+402.79998 237.08993 Td
+(can) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+425.47998 237.08993 Td
+(greatly) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+464.82797 237.08993 Td
+(simplify) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 222.68994 Td
+(document) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+106.02799 222.68994 Td
+(processing.) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+170.72 222.68994 Td
+(The) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+195.39199 222.68994 Td
+(focus) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+230.73199 222.68994 Td
+(on) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+248.73199 222.68994 Td
+(structure) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+304.07598 222.68994 Td
+(enables) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+352.09997 222.68994 Td
+(powerful) Tj
+ET
+/F2 12 Tf
+/F2 12 Tf
+BT
+405.43997 222.68994 Td
+(transformations.) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+503.45596 222.68994 Td
+(Future) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 208.28994 Td
+(work) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+78.66799 208.28994 Td
+(includes) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+126.02 208.28994 Td
+(adding) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+165.38 208.28994 Td
+(references,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+228.74 208.28994 Td
+(figures,) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+271.42401 208.28994 Td
+(and) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+294.776 208.28994 Td
+(mathematical) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+369.46398 208.28994 Td
+(notation) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+415.496 208.28994 Td
+(while) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+446.16799 208.28994 Td
+(preserving) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+50 193.88995 Td
+(grammar) Tj
+ET
+/F1 12 Tf
+/F1 12 Tf
+BT
+101.33599 193.88995 Td
+(simplicity.) Tj
+ET
+
+endstream
+endobj
+15 0 obj
+6172
+endobj
+xref
+0 16
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000137 00000 n
+0000000198 00000 n
+0000000296 00000 n
+0000000399 00000 n
+0000000505 00000 n
+0000000711 00000 n
+0000010425 00000 n
+0000010445 00000 n
+0000010653 00000 n
+0000018993 00000 n
+0000019014 00000 n
+0000019212 00000 n
+0000025440 00000 n
+trailer
+<<
+/Root 1 0 R
+/Info 3 0 R
+/Size 16
+>>
+startxref
+25461
+%%EOF
